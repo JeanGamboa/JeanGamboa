@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bienvenido a Pokemon</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/pokemonInicio.css">
+</head>
+
+<body>
+    <header>
+        <div id="arribaNegro"></div>
+        <h1 id="tituloArriba">Bienvenido a Pokemon 2018</h1>
+        <nav id="menuGeneral">
+            <a href="index.html">Inicio</a>
+            <a href="registrarEntrenador.html">Registro de Entrenador</a>
+            <a href="listarEntrenador.html">Mira los entrenadores</a>
+            <a href="registrarPokemon.html">Registro de Pokemon</a>
+            <a href="listarPokemon.html">Mira los Pokemones</a>
+            <a href="captura.html">Captura tu Pokemon</a>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <img id="imagenBanner1" src="img/banner pokemon landding.jpg">
+        </div>
+        <div id="introduccionPokemon">
+            <h2>Que es Pokemon</h2>
+            <p>Pokemon es un juego de fantasia que te dara diversion en todo momento</p>
+        </div>
+        <div>
+            <img id="imagenBanner2" src="img/imagenBanner2.jpg">
+        </div>
+        <div id="funciones">
+            <h2>Nuestros servicios</h2>
+            <div id="izqEntrenador">
+                <h3>Entrenadores</h3>
+                <img id="imagenCaraEntrenador" src="img/entrenadoraPokemon.png">
+                <p>Podras registrar nuevos amigos en el apartado de entrenadores pokemon</p>
+                <a href="registrarEntrenador.html">Agrega entrenadores</a>
+            </div>
+            <div id="cenPokemon">
+                <h3>Pokemones</h3>
+                <img id="imagenPokemon" src="img/pokemon.png">
+                <p>Todo el universo pokemon aqui lo podras ver y agregar nuevas criaturas</p>
+                <a href="registrarPokemon.html">Registra Pokemones</a>
+            </div>
+            <div id="derCaptura">
+                <h3>Captura Pokemones</h3>
+                <img id="imagenCaptura" src="img/pokeball.png">
+                <p>Aqui podras capturar todos los pokemones que te encuentres en tu camino</p>
+                <a href="captura.html">Captura pokemones</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/controladorPokemon.js"></script>
+    <script src="js/servicioPokemon.js"></script>
+</body>
+
+</html>

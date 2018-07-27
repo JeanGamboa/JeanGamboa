@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registro de Entrenador Pokemon</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/pokemonInicio.css">
+</head>
+
+<body>
+    <header>
+        <div id="arribaNegro"></div>
+        <h1 id="tituloArriba">Registro de entrenadores Pokemon</h1>
+        <nav id="menuGeneral">
+            <a href="index.html">Inicio</a>
+            <a href="registrarEntrenador.html">Registro de Entrenador</a>
+            <a href="listarEntrenador.html">Mira los entrenadores</a>
+            <a href="registrarPokemon.html">Registro de Pokemon</a>
+            <a href="listarPokemon.html">Mira los Pokemones</a>
+            <a href="captura.html">Captura tu Pokemon</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Bienvenidos a el registro de entrenadores pokemon</h2>
+        <p>Aqui podras registrar a todos los entrenadores pokemon que quieras, para que participen en tus torneos, solo tienes
+            que llenar la informacion que se le solicita y dar click en Registrar, Disfruta tu registro.</p>
+        <form action="" id="formularioRegistro" autocomplete="off">
+            <img src="" alt="Foto" id="txtImagen" width="128px" height "128px">
+            <fieldset class="fieldset">
+                <div>
+                    <label for="txtNombre">Nombre del entrenador:</label>
+                    <input type="text" id="txtNombre" placeholder="Ej, Jean Gamboa" required autofocus>
+                    <label for="txtNombre" class="labelError">*</label>
+                </div>
+                <div>
+                    <label for="txtNumeroEntrenador">Numero de entrenador:</label>
+                    <input type="number" id="txtNumeroEntrenador" placeholder="Ej, 1879" min="1" required>
+                    <label for="txtNumeroEntrenador" class="labelError">*</label>
+                </div>
+                <div>
+                    <label for="txtEdad">Edad del entrenador:</label>
+                    <input type="number" id="txtEdad" placeholder="Ej, 16" min="16" max="79" required>
+                    <label for="txtEdad" class="labelError">*</label>
+                </div>
+                <div>
+                    <label for="txtSexo">Sexo del entrenador:</label>
+                    <select id="txtSexo" required>
+                        <option value="mujer">Mujer</option>
+                        <option value="hombre">Hombre</option>
+                        <option value="indefinido">Indefinido</option>
+                    </select>
+                    <label for="txtSexo" class="labelError">*</label>
+                </div>
+                <div>
+                    <label for="btnSeleccionarImagen">Ingresa la foto del entrenador:</label>
+                    <button type="button" id="btnSeleccionarImagen">Subir foto</button>
+                </div>
+            </fieldset>
+            <button type="button" class="button" id="btnRegistrar">Registrar</button>
+        </form>
+        <input type="text" id="txtBuscar">
+        <table id="tblEntrenadores">
+            <thead>
+                <th>Nombre</th>
+                <th>Numero de Entrenador</th>
+                <th>Edad</th>
+                <th>Sexo</th>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+    </footer>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src='https://cdn.jsdelivr.net/jquery.cloudinary/1.0.18/jquery.cloudinary.js' type='text/javascript'></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <script src="https://widget.cloudinary.com/global/all.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+    <script src="js/entrenador/controladorEntrenador.js"></script>
+    <script src="js/entrenador/servicioEntrenador.js"></script>
+    <script src="js/servicioImagen.js"></script>
+</body>
+
+</html>

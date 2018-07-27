@@ -1,0 +1,172 @@
+header #arribaNegro{
+    background-color: #333333;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+header #tituloArriba{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #fe9126;
+    font-size: 45px;
+    padding-top: 77px;
+    padding-bottom: 45px;
+}
+
+header #menuGeneral{
+    text-align: center;
+    background-color: #fe9126;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: 50px;
+
+}
+
+header #menuGeneral a {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+}
+
+#imagenBanner1{
+    width: 100%;
+    height: 100%;
+}
+#imagenBanner2{
+    width: 100%;
+    height: 100%;
+}
+
+h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #333333;
+    font-size: 45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #333333;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #333333;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+
+div #funciones{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+div #izqEntrenador{
+    width: 33%;
+    height: 33%;
+    float: left;
+}
+div #imagenCaraEntrenador{
+    display: block;
+    margin: auto;
+    width: 140px;
+    height: 140px;
+}
+div #izqEntrenador a{
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: #3399cc;
+    background-color: #3399cc;
+    text-decoration: none;
+    color: #ffffff;
+    width: 120px;
+    margin: 15px 20px;
+    padding: 5px 25px;
+}
+div #izqEntrenador a:hover{
+    background-color: #fe9126;
+}
+div #izqEntrenador a{
+    transition: .39s ease-in;
+    -webkit-transition: .39s ease-in;
+    -moz-transition: .39s ease-in;
+    -o-transition: .39s ease-in;
+    -ms-transition: .39s ease-in;
+}
+div #cenPokemon{
+    width: 33%;
+    height: 33%;
+    float: left;
+}
+div #imagenPokemon{
+    display: block;
+    margin: auto;
+    width: 140px;
+    height: 140px;
+}
+div #cenPokemon a{
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: #3399cc;
+    background-color: #3399cc;
+    text-decoration: none;
+    color: #ffffff;
+    width: 120px;
+    margin: 15px 20px;
+    padding: 5px 25px;
+}
+div #cenPokemon a:hover{
+    background-color: #fe9126;
+}
+div #cenPokemon a{
+    transition: .39s ease-in;
+    -webkit-transition: .39s ease-in;
+    -moz-transition: .39s ease-in;
+    -o-transition: .39s ease-in;
+    -ms-transition: .39s ease-in;
+}
+
+div #derCaptura{
+    width: 33%;
+    height: 33%;
+    float: left;
+}
+div #imagenCaptura{
+    display: block;
+    margin: auto;
+    width: 140px;
+    height: 140px;
+}
+div #derCaptura a{
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: #3399cc;
+    background-color: #3399cc;
+    text-decoration: none;
+    color: #ffffff;
+    width: 120px;
+    margin: 15px 20px;
+    padding: 5px 25px;
+}
+div #derCaptura a:hover{
+    background-color: #fe9126;
+}
+div #derCaptura a{
+    transition: .39s ease-in;
+    -webkit-transition: .39s ease-in;
+    -moz-transition: .39s ease-in;
+    -o-transition: .39s ease-in;
+    -ms-transition: .39s ease-in;
+}
